@@ -1,0 +1,71 @@
+h1 {
+    color: lightgreen;
+    font-size: 35px;
+}
+#Ropaperrito {
+    
+    color: blue;
+    font-size: 40px;
+}
+.Dos {
+    color: aquamarine;
+    font-size: 20px;
+}
+ul {
+    margin: 80px;
+    padding: 15px 30px;
+    border: 10px solid red;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 75px;
+    transform: rotate();
+}
+span {
+    font-size: 35px;
+    background-color: aqua;
+}
+img {
+    border-radius: 75px;
+    box-shadow: 10px 20px 10px rgb(204, 118, 118);
+    width: 300px;
+    height: 250px;
+}
+body{
+    background-image: url(Imagenes/img\ de\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    background-attachment: fixed;
+}
+h1{
+    color: lightgreen;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+}
+/*div {
+    column-count: 10;
+    column-gap: 50px;
+    column-rule: 10px double violet;
+}*/
+.hola{
+    font-size: 30px;
+}
+.corona {
+    font-size: 30px;
+}
+@media (min-width: 500px) and (max-width: 1100px) {
+    h1.corona { width: 25%; }
+ }
+ p.texto1 {
+    clear: right;
+ }
+section img {
+    float: left;
+    margin-right: 20px;
+}
+.padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
